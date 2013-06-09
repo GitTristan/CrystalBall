@@ -10,20 +10,34 @@
 
 @interface ViewController ()
 
-@end
 
+@end
 @implementation ViewController
+@synthesize predictionLabel;
+@synthesize predictionArray;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    self.predictionArray = [[NSArray alloc] initWithObjects:@"It is Certain",
+                                @"It is decidedly so",
+                                @"All Signs Say YES",
+                                @"The Stars are not Aligned",
+                                @"My Reply is No",
+                                @"It is Doubtful",
+                                @"Better not tell you now",
+                                @"Look up", nil];
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+
+- (IBAction)buttonPressed:(id)sender {
+    NSUInteger index = arc4random_uniform(self.predictionArray.count);
+    self.predictionLabel.text = [self.predictionArray objectAtIndex:index];
 }
 
 @end

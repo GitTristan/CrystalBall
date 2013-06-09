@@ -18,6 +18,7 @@
 		BE3BB28216FE12FC003F1FF9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3BB28116FE12FC003F1FF9 /* Default-568h@2x.png */; };
 		BE3BB28516FE12FC003F1FF9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3BB28316FE12FC003F1FF9 /* MainStoryboard.storyboard */; };
 		BE3BB28816FE12FC003F1FF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3BB28716FE12FC003F1FF9 /* ViewController.m */; };
+		BE3BB29016FE3DB6003F1FF9 /* crystal-ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE3BB28F16FE3DB6003F1FF9 /* crystal-ball.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BE3BB28416FE12FC003F1FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BE3BB28616FE12FC003F1FF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BE3BB28716FE12FC003F1FF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE3BB28F16FE3DB6003F1FF9 /* crystal-ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crystal-ball.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		BE3BB27116FE12FC003F1FF9 /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
+				BE3BB28E16FE3D47003F1FF9 /* Images */,
 				BE3BB27A16FE12FC003F1FF9 /* AppDelegate.h */,
 				BE3BB27B16FE12FC003F1FF9 /* AppDelegate.m */,
 				BE3BB28316FE12FC003F1FF9 /* MainStoryboard.storyboard */,
@@ -105,6 +108,14 @@
 				BE3BB28116FE12FC003F1FF9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE3BB28E16FE3D47003F1FF9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE3BB28F16FE3DB6003F1FF9 /* crystal-ball.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 				BE3BB28016FE12FC003F1FF9 /* Default@2x.png in Resources */,
 				BE3BB28216FE12FC003F1FF9 /* Default-568h@2x.png in Resources */,
 				BE3BB28516FE12FC003F1FF9 /* MainStoryboard.storyboard in Resources */,
+				BE3BB29016FE3DB6003F1FF9 /* crystal-ball.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
