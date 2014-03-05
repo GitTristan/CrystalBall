@@ -28,6 +28,7 @@
                                 @"My Reply is No",
                                 @"It is Doubtful",
                                 @"Better not tell you now",
+                                @"Ha Ha",
                                 @"Look up", nil];
 
 }
